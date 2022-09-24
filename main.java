@@ -5,7 +5,7 @@ public static void main(String[] args){
 
  Multi ejemplo=new Multi();
 
- System.out.println(ejemplo.multiplicacion(4,1));
+ System.out.println(ejemplo.multiplicacion(4,2));
 
  }
 }
