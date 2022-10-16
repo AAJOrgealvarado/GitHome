@@ -1,0 +1,17 @@
+name: test
+
+on: 
+	pull_request:
+		branches:[main]
+
+jobs:
+	ci_to_master:
+	runs-on: windows-lastest
+	steps:
+		-uses:actions/LuisLosada1
+		-uses:actions/AAJOrgealvarado
+		with:
+			
+		-run: npm ci
+		-npm  npm test
+		-run: npm run build
