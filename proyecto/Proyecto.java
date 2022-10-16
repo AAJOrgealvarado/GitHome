@@ -49,9 +49,6 @@ public class Proyecto extends JFrame {
                     bot("4. Protocolos inseguros");
                     bot("5. Inyecciòn codigo sql");
                     bot("6. Errores de acceso de puerto a personas sin privilegios");
-                    bot("7. Problemas digestivos");
-                    bot("8. Problemas articulares");
-                    bot("9. Digestivos o estreñimiento");
                     
                     
                     
@@ -68,12 +65,7 @@ public class Proyecto extends JFrame {
                     bot("Rebustecer base de datos y cambiar password de acceso");
                 }else if(gtext.contains("6") ){
                     bot("Apoyarse en el directorio activo o en el antivirus con device control");
-                }else if(gtext.contains("7") ||gtext.contains("digestivos") ||gtext.contains("digestion") ||gtext.contains("estomago")){
-                    bot("Plátano");
-                }else if(gtext.contains("8") ||gtext.contains("alzheimer") ||gtext.contains("memoria") ||gtext.contains("olvidar cosas")){
-                    bot("Uvas rojas y moradas");
-                }else if(gtext.contains("9") ||gtext.contains("digestion") ||gtext.contains("estomago") ||gtext.contains("estreñimiento")){
-                    bot("Papaya");
+               
                 }
             }
         
