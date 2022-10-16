@@ -41,9 +41,9 @@ public class Proyecto extends JFrame {
                 Chatarea.append("Jorge: "+ gtext +"\n");
                 Chatbox.setText("");
                 if(gtext.contains("hola") || gtext.contains("buenos")|| gtext.contains("buenas")){
-                    bot("Hola, vamos a orientarte en la selección de la fruta frezca según tu enfermedad.");
-                    bot("Selecciona el número de la enfermedad y te indicamos la fruta que puedes comer");
-                    bot("1. Colesterol y problemas de calculo");
+                    bot("Hola vamos a detectar seguridad.");
+                    bot("Selecciona el el problema y te indicamos el fallo");
+                    bot("1. Datos encriptados y secuetro de informaciòn");
                     bot("2. Riesgo de cancer");
                     bot("3. Problemas Cardiacos");
                     bot("4. Alzheimer");
@@ -55,8 +55,8 @@ public class Proyecto extends JFrame {
                     
                     
                     
-                }else if(gtext.contains("1") ||gtext.contains("6") ||gtext.contains("Colesterol") ||gtext.contains("Cálculos") || gtext.contains("renales")){
-                    bot("Toronja o Pomelo, limón, Naranja");
+                }else if(gtext.contains("1") ){
+                    bot("Es unn ransomeware, apoyadte de copia de seguridad y tu probvedor de antivirus");
                     
                 }else if(gtext.contains("2") || gtext.contains("Imflamación") ||gtext.contains("cancer") || gtext.contains("crecimiento tumores")){
                     bot("Piña, Sandia, Aceitunas, mora, guayaba, papaya");
