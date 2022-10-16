@@ -44,7 +44,7 @@ public class Proyecto extends JFrame {
                     bot("Hola vamos a detectar seguridad.");
                     bot("Selecciona el el problema y te indicamos el fallo");
                     bot("1. Datos encriptados y secuetro de informaciòn");
-                    bot("2. Riesgo de cancer");
+                    bot("2. Pagina Insegura");
                     bot("3. Problemas Cardiacos");
                     bot("4. Alzheimer");
                     bot("5. Diabetes");
@@ -58,8 +58,8 @@ public class Proyecto extends JFrame {
                 }else if(gtext.contains("1") ){
                     bot("Es unn ransomeware, apoyadte de copia de seguridad y tu probvedor de antivirus");
                     
-                }else if(gtext.contains("2") || gtext.contains("Imflamación") ||gtext.contains("cancer") || gtext.contains("crecimiento tumores")){
-                    bot("Piña, Sandia, Aceitunas, mora, guayaba, papaya");
+                }else if(gtext.contains("2")){
+                    bot("Activar certificado SSL");
                 }else if(gtext.contains("3") ||gtext.contains("corazon") ||gtext.contains("cardiacos") ||gtext.contains("cardiaco")){
                     bot("Aguacate, Arándanos y manzana");
                 }else if(gtext.contains("4") ||gtext.contains("alzheimer") ||gtext.contains("memoria") ||gtext.contains("olvidar cosas")){
