@@ -47,7 +47,7 @@ public class Proyecto extends JFrame {
                     bot("2. Pagina Insegura");
                     bot("3. Cabeceras desconfigurardas");
                     bot("4. Protocolos inseguros");
-                    bot("5. Diabetes");
+                    bot("5. Inyecciòn codigo sql");
                     bot("6. Anemia");
                     bot("7. Problemas digestivos");
                     bot("8. Problemas articulares");
@@ -64,8 +64,8 @@ public class Proyecto extends JFrame {
                     bot("Configuraciòn de header");
                 }else if(gtext.contains("4")){
                     bot("Navegar por portocolo https y puerto 443");
-                }else if(gtext.contains("5") ||gtext.contains("diabetes") ||gtext.contains("insulina") ||gtext.contains("azucar")){
-                    bot("Arandanos, manzana y toronja");
+                }else if(gtext.contains("5") ){
+                    bot("Rebustecer base de datos y cambiar password de acceso");
                 }else if(gtext.contains("6") ||gtext.contains("alzheimer") ||gtext.contains("memoria") ||gtext.contains("olvidar cosas")){
                     bot("Arandanos, Mora, Naranja");
                 }else if(gtext.contains("7") ||gtext.contains("digestivos") ||gtext.contains("digestion") ||gtext.contains("estomago")){
