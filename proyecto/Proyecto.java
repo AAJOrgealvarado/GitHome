@@ -79,6 +79,6 @@ public class Proyecto extends JFrame {
     }
         public static void main(String[] args) {
         new Proyecto();
-        System.out.println("Hello World!");        
+        System.out.println("Hello team!");        
     }
 }
