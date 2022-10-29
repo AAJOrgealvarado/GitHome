@@ -42,7 +42,7 @@ public class Proyecto extends JFrame {
                 Chatbox.setText("");
                 if(gtext.contains("hola") || gtext.contains("buenos")|| gtext.contains("buenas")){
                     bot("Hola vamos a detectar seguridad 29 de octubre.");
-                    bot("Selecciona el el problema y te indicamos el fallo");
+                    bot("Sqqqqqqqelecciona el eql problema y te indicamos el fallo");
                     bot("1. Datos encriptados y secuetro de informaciòn");
                     bot("2. Pagina Insegura");
                     bot("3. Cabeceras desconfigurardas");
