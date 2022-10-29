@@ -43,9 +43,7 @@ public class Proyecto extends JFrame {
                 if(gtext.contains("hola") || gtext.contains("buenos")|| gtext.contains("buenas")){
                     bot("Hola vamos a detectar seguridad 29 de octubre.");
                     bot("Sqqqqqqqelecciona el eql problema y te indicamos el fallo");
-                    bot("1. Datos encriptados y secuetro de informaciòn");
-                    bot("2. Pagina Insegura");
-                    bot("3. Cabeceras desconfigurardas");
+                    bot("3.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa Cabeceras desconafigurardas")    ;
                     bot("4. Protocolos inseguros");
                     bot("5. Inyecciòn codigo sql");
                     bot("6. Errores de acceso de puerto a personas sin privilegios");
